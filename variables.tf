@@ -6,3 +6,7 @@ variable "poste_nn" {
 variable "mon_ip_publique" {
   type = string
 }
+
+variable "public_key_path" {
+  type = string
+}
