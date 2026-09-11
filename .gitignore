@@ -1,0 +1,16 @@
+@"
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+
+# Clés SSH
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
+"@ | Out-File -Encoding utf8 .gitignore
