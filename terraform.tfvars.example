@@ -1,0 +1,4 @@
+@"
+poste_nn        = "08"
+mon_ip_publique = "VOTRE_IP_ICI/32"
+"@ | Out-File -Encoding utf8 terraform.tfvars.example

@@ -17,3 +17,11 @@ output "eip_public_ip" {
 output "nat_gateway_id" {
   value = module.network.nat_gateway_id
 }
+
+output "sg_bastion_id" {
+  value = module.security.sg_bastion_id
+}
+
+output "sg_prive_id" {
+  value = module.security.sg_prive_id
+}
