@@ -9,3 +9,11 @@ output "public_subnet_id" {
 output "prive_subnet_id" {
   value = module.vpc.prive_subnet_id
 }
+
+output "eip_public_ip" {
+  value = module.network.eip_public_ip
+}
+
+output "nat_gateway_id" {
+  value = module.network.nat_gateway_id
+}
